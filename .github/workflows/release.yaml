@@ -39,6 +39,7 @@ jobs:
         run: >
           dotnet run
           --project CherryTaleAssetDecryptor.csproj
+          --configuration Release
           --framework net10.0
           --no-build
           -- --help
